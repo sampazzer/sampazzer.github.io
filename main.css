@@ -5,13 +5,16 @@
 }
 html, body{
 	height:100%;
+	width:100%;
 	font-size:16px;
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
+	justify-items:center;
 }
 .container{
 	background-color:blue;
 	width:5rem;
 	height:5rem;
+	text-align:center;
 }
