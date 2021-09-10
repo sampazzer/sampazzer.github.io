@@ -6,9 +6,11 @@
 html, body{
 	height:100%;
 	font-size:16px;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
 }
 .container{
-	display:flex;
 	background-color:blue;
 	width:5rem;
 	height:5rem;
